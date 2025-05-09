@@ -64,7 +64,7 @@ local Window = WindUI:CreateWindow({
     User = {
         Enabled = true, -- <- or false
         Callback = function() print("clicked") end, -- <- optional
-        Anonymous = false -- <- or true
+        Anonymous = true -- <- or true
     },
     SideBarWidth = 190,
     --Background = "rbxassetid://13511292247", -- rbxassetid only
