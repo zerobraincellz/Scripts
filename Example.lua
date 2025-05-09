@@ -79,13 +79,6 @@ local Window = WindUI:CreateWindow({
         -- },
         URL = "https://github.com/Footagesus/WindUI", -- remove this if the key is not obtained from the link.
         SaveKey = true, -- optional
-            Callback = function() 
-        WindUI:Notify({
-            Title = "Welcome To Free!",
-            Content = "Content",
-            Icon = "accept",
-            Duration = 5,
-        }),
     },
 })
 
